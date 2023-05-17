@@ -23,7 +23,8 @@
                 android:layout_height="wrap_content"
                 android:text="Пропустить"
                 android:paddingTop="10dp"
-                android:paddingStart="10dp"/>
+                android:paddingStart="10dp"
+                android:textColor="#0000ff"/>
 
             <ImageView
                 android:id="@+id/imageView3"
