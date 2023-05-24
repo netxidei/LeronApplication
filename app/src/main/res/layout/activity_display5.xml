@@ -62,14 +62,13 @@
             android:layout_gravity="center"
             android:paddingTop="1dp"
             android:src="@drawable/bg"
-            android:text/>
 
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingTop="40dp"
+            android:paddingTop="30dp"
             android:src="@drawable/Big" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
