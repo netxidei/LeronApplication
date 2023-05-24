@@ -46,22 +46,23 @@
             android:layout_gravity="center"
             android:paddingTop="20dp"
             android:text="Войдите,чтобы пользоваться функциями \nприложения"
-            android:textSize="17dp" />
+            android:textSize="17dp"
+            android:textColor="@color/black"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingStart="45dp"
             android:paddingTop="50dp"
-            android:text="Вход по E-mail"
+            android:text="Вход по E-mail"/>
 
         <ImageView
             android:id="@+id/sss"
             android:layout_width="365dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:paddingTop="1dp"
-            android:src="@drawable/bg"
+            android:paddingTop="3dp"
+            android:src="@drawable/Input"
 
 
         <ImageView
@@ -70,5 +71,20 @@
             android:layout_gravity="center"
             android:paddingTop="30dp"
             android:src="@drawable/Big" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Или войдите с помощью"
+            android:layout_gravity="center"
+            android:paddingTop="160dp"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/LoginWith"
+            android:layout_gravity="center"
+            android:paddingTop="20dp"
+            />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
